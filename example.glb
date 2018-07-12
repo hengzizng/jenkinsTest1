@@ -1,0 +1,2 @@
+namespace ex;
+int32_t counter;
