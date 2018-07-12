@@ -12,6 +12,6 @@ int main() {
 	else {
 		printf("%s와 %s는 다른 문장입니다.\n", str1, str2);
 	}
-	//str2[40] = 'a';
+	str2[10] = 'a';
 	return 0;
 }
