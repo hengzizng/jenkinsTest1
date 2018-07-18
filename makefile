@@ -1,2 +1,3 @@
+CC=gcc
 testmake: test.c str.c
-	gcc -o testmake test.c str.c -I.
+	$(CC) -o testmake test.c str.c -I.
