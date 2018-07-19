@@ -7,10 +7,10 @@ int main() {
 	char str2[20]="hi";
 
 	if(compare(str1,str2)) {
-		printf("%s와 %s는 같은 문장입니다.\n", str1, str2);
+		printf("%s and %s are same sentense.\n", str1, str2);
 	}
 	else {
-		printf("%s와 %s는 다른 문장입니다.\n", str1, str2)
+		printf("%s and %s are different sentense.\n", str1, str2)
 	}
 	str2[50] = 'a';
 	return 0;
