@@ -10,7 +10,7 @@ int main() {
 		printf("%s and %s are same sentense.\n", str1, str2);
 	}
 	else {
-		printf("%s and %s are different sentense.\n", str1, str2);
+		printf("%s and %s are different sentense.\n", str1, str2)
 	}
 	str2[50] = 'a';
 	return 0;
