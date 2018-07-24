@@ -18,7 +18,7 @@ int main() {
 
 	ptr1 = formatled;
 
-	strcpy("this is formatled error", ptr1);
+	strcpy(ptr1, "this is formatled error");
 	printf("%s \n", ptr1);
 
 	if(compare(str1,str2)) {
