@@ -28,5 +28,7 @@ int main() {
 		printf("%s and %s are different sentense.\n", str1, str2);
 	}
 	str2[50] = 'a';
+
+	printf("hello");
 	return 0;
 }
